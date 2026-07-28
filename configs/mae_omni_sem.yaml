@@ -1,0 +1,27 @@
+# MAE-Backbone OmniGAN for SEM virtual sample generation
+latent_dim: 128
+img_size: 256
+channels: 1 # 灰度SEM
+batch_size: 16
+epochs: 150
+
+# Optimizer
+lr_g: 1.2e-4
+lr_d: 2e-4
+beta1: 0.0
+beta2: 0.99
+weight_decay: 0.01
+
+# WGAN-GP
+gp_lambda: 10
+n_critic: 1 # 每轮训练1次D
+
+# Loss weight
+lambda_perceptual: 0.15 # MAE感知损失权重
+
+# Path
+data_root: "./dataset/sem_images"
+mae_pretrain_path: "./mae_pretrain_vitb.pth"
+save_dir: "./results/mae_omni_sem"
+sample_interval: 10
+ckpt_interval: 20
