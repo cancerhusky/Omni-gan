@@ -195,6 +195,7 @@ python BigGAN_PyTorch_1_lib/train.py \
 - BigGAN implemented from [https://github.com/ajbrock/BigGAN-PyTorch](https://github.com/ajbrock/BigGAN-PyTorch).
 - Multi-label classification loss derived by [Jianlin Su](https://kexue.fm/archives/7359).
 - Detectron2 library [https://github.com/facebookresearch/detectron2](https://github.com/facebookresearch/detectron2).
+- MAE implemented from [https://github.com/IcarusWizard/MAE](https://github.com/IcarusWizard/MAE)
 
 
 
