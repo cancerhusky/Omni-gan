@@ -1,6 +1,7 @@
 import os, yaml, argparse
 import torch
 import torch.nn as nn
+import run_test
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
